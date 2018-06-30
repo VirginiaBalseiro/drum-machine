@@ -26,6 +26,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <h1 id="title">Drum Machine</h1>
+      <h3 id="credits">Created by <a href="http://www.virginiabalseiro.com" target="_blank"> Virginia Balseiro </a></h3>
       <div id="drum-machine">
       <Pads 
          padsarray = {this.state.padsarray}
