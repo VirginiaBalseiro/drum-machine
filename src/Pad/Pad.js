@@ -13,6 +13,7 @@ class Pad extends Component {
 
       playAudio() {
           let audioclip = document.getElementById(this.props.letter);
+          audioclip.currentTime = 0;
           audioclip.play();
       }
 
